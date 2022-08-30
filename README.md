@@ -1,0 +1,1 @@
+# auto-config-change-kustomize
