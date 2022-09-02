@@ -89,7 +89,7 @@ no
   password=changeme
   user=john
  ```
- 5. Now add new environment variable test=debug in kustomization.yaml file here [here](./base/kustomization.yaml).
+ 5. Now add new environment variable test=debug in kustomization.yaml file [here](./base/kustomization.yaml).
  6. now run once again kustomize build and apply manifests to cluster:
  ```shell
  kustomize build . | oc apply -f -
