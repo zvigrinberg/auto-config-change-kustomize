@@ -155,3 +155,4 @@ oc describe pod dc-test-2-dwtxj | grep -i environment -A2
     password=changeme
 
    ```
+*__Note: when modifying configuration then the old configmaps will remain in k8 namespace so it gives a good history of which configuration was applied to a deployment at every point, but sometimes you may want to delete the old ones as it may be heavy for k8 etcd data structure__* 
